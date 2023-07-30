@@ -6,6 +6,7 @@ var connectionString = builder.Configuration.GetConnectionString("FilmeConnectio
 
 builder.Services.AddDbContext<FilmeContext>(opts =>
     opts.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+builder.Services.AddControllers().AddNewtonsoftJson();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
