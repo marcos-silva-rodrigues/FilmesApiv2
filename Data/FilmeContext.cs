@@ -14,5 +14,7 @@ namespace FilmesApi.Data
         {
             get; set;
         }
+
+        public DbSet<Cinema> Cinemas { get; set; }
     }
 }
