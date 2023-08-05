@@ -24,4 +24,6 @@ public class Filme
     [Required]
     [StringLength(10, ErrorMessage = "O nome do diretor deve ter pelo menos 10 caracteres")]
     public string Diretor { get; set; }
+
+    public virtual ICollection<Sessao> Sessoes { get; set; }
 }
