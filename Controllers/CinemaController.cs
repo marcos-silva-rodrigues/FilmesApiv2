@@ -2,7 +2,6 @@
 using FilmesApi.Data.Dtos;
 using FilmesApi.Data;
 using FilmesApi.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FilmesApi.Controllers
@@ -85,5 +84,4 @@ namespace FilmesApi.Controllers
         }
 
     }
-}
 }
