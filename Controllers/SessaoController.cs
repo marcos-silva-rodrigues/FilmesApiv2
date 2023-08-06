@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace FilmesApi.Controllers
 {
     [ApiController]
-    [Route("[controller")]
+    [Route("[controller]")]
     public class SessaoController : ControllerBase
     {
 
